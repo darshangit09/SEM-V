@@ -4,7 +4,7 @@ start=time.time()
 def fibonacci(n): 
     a = 0
     b = 1
-    for i in range(n): 
+    for i in range(n+1): 
         print(a, end = " ") 
         a, b = b, a + b
 end= time.time()
