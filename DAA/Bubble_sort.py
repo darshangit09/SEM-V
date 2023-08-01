@@ -12,13 +12,6 @@ def bubbleSort(arr):
 				if not swapped:
 			              return    
 end=time.time()
-arr = [64, 34, 25, 12, 22, 11, 90]
-bubbleSort(arr)
-print("Sorted array is:")
-print(arr)
-print("Time taken by array:", end-start)
-print("")
-
 # Best case
 arr1 = [11,12,22,25,34,64, 90]
 bubbleSort(arr1)
